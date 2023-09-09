@@ -8,10 +8,18 @@ using System.Windows;
 
 namespace Chitro
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
-    public partial class App : Application
-    {
-    }
+	/// <summary>
+	/// Load the main window of the application.
+	/// </summary>
+	public partial class App : Application
+	{
+		protected override void OnStartup(StartupEventArgs e)
+		{
+			base.OnStartup(e);
+
+			// Show the main window of the application
+			MainWindow window = new MainWindow();
+			window.Show();
+		}
+	}
 }

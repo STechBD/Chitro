@@ -1,9 +1,10 @@
 ﻿<Application x:Class="Chitro.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Chitro"
-             StartupUri="MainWindow.xaml">
+             StartupUri="/src/MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <!-- Styles to be added later -->
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
