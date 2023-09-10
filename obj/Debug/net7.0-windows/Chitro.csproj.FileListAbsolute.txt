@@ -19,3 +19,5 @@ D:\Lab\C#\Chitro\obj\Debug\net7.0-windows\Chitro.pdb
 D:\Lab\C#\Chitro\obj\Debug\net7.0-windows\Chitro.genruntimeconfig.cache
 D:\Lab\C#\Chitro\obj\Debug\net7.0-windows\ref\Chitro.dll
 D:\Lab\C#\Chitro\obj\Debug\net7.0-windows\src\App.baml
+D:\Lab\C#\Chitro\obj\Debug\net7.0-windows\src\View\MainWindow.baml
+D:\Lab\C#\Chitro\obj\Debug\net7.0-windows\src\View\MainWindow.g.cs

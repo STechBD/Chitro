@@ -15,7 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Chitro
+namespace Chitro.Model
 {
 	/// <summary>
 	/// Main window of the application.
@@ -27,8 +27,6 @@ namespace Chitro
 
 		public MainWindow()
 		{
-			InitializeComponent();
-
 			photo = new ObservableCollection<BitmapImage>();
 			currentPhotoIndex = 0;
 

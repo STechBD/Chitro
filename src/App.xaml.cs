@@ -18,7 +18,7 @@ namespace Chitro
 			base.OnStartup(e);
 
 			// Show the main window of the application
-			MainWindow window = new MainWindow();
+			Window window = new Model.MainWindow();
 			window.Show();
 		}
 	}
